@@ -1,0 +1,35 @@
+.contrastBorder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 11110px;
+  border: 0.9px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 40px);
+  letter-spacing: 1.25px;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 80px;
+}
+.avatar {
+  width: 80px;
+  position: relative;
+  box-shadow: 0 1.3px 2.5px rgba(16, 24, 40, 0.05);
+  border-radius: 11110px;
+  background-color: #f2f4f7;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  color: #667085;
+  font-family: "Degular Display";
+}

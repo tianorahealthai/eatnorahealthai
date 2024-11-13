@@ -1,0 +1,90 @@
+.label,
+.text {
+  position: relative;
+  letter-spacing: 1px;
+}
+.label {
+  line-height: 150%;
+  font-weight: 600;
+}
+.text {
+  line-height: 130%;
+}
+.addOn {
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 12px 10px 14px;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.helpIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.input,
+.inputWithLabel,
+.textInput {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.textInput {
+  flex: 1;
+  border-radius: 0 8px 8px 0;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  color: #667085;
+}
+.input,
+.inputWithLabel {
+  align-items: flex-start;
+}
+.input {
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  flex-direction: row;
+  font-size: 16px;
+  color: #475467;
+}
+.inputWithLabel {
+  flex-direction: column;
+  gap: 6px;
+}
+.hintText {
+  width: 320px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 130%;
+  color: #475467;
+}
+.inputField {
+  width: 398px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  text-align: left;
+  font-size: 18px;
+  color: #344054;
+  font-family: "Degular Display";
+}

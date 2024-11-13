@@ -1,0 +1,21 @@
+.text {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+}
+.badge {
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #abefc6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 8px;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: 14px;
+  color: #067647;
+  font-family: "Degular Display";
+}

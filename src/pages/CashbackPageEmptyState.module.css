@@ -1,0 +1,193 @@
+.backgroundPatternDecorative {
+  width: 480px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 240px);
+  left: -25px;
+  height: 480px;
+  z-index: 0;
+}
+.checkIcon {
+  width: 48px;
+  position: relative;
+  border-radius: 9999px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wellDoneTia {
+  margin: 0;
+}
+.mainText,
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1px;
+}
+.mainText {
+  line-height: 32px;
+  font-weight: 600;
+}
+.supportingText {
+  font-size: 16px;
+  line-height: 130%;
+  color: #475467;
+}
+.emptyStateContentContainer,
+.emptyStateContents {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.emptyStateContentContainer {
+  gap: 16px;
+}
+.emptyStateActions,
+.emptyStateMainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyStateMainContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  z-index: 1;
+}
+.emptyState {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  position: relative;
+}
+.mainContainer,
+.successAnimationIcon {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 430px;
+  height: 768px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+  box-sizing: border-box;
+}
+.successAnimationIcon {
+  object-fit: cover;
+}
+.clipPathGroup,
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 26.34%;
+  top: 0;
+  right: 73.66%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 64.69%;
+  width: 65.1%;
+  top: 15.63%;
+  right: 0;
+  bottom: 19.69%;
+  left: 34.9%;
+}
+.logo {
+  width: 121.5px;
+  position: relative;
+  height: 32px;
+}
+.noraLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.helpCircleIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonsbutton {
+  width: 36px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.actions,
+.buttonsbutton2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonsbutton2 {
+  width: 36px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 8px;
+}
+.actions {
+  justify-content: flex-start;
+  gap: 8px;
+}
+.appHeader,
+.cashbackPageEmptyState {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.appHeader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+.cashbackPageEmptyState {
+  position: relative;
+  border-radius: 32px;
+  height: 932px;
+  text-align: center;
+  font-size: 24px;
+  color: #101828;
+  font-family: "Degular Display";
+}

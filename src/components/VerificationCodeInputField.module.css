@@ -1,0 +1,41 @@
+.label {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.input,
+.inputWithLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  flex-direction: row;
+  gap: 8px;
+  text-align: center;
+  font-size: 24px;
+  color: #d0d5dd;
+}
+.inputWithLabel {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 6px;
+}
+.hintText {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  color: #475467;
+}
+.verificationCodeInputField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  color: #344054;
+  font-family: "Degular Display";
+}

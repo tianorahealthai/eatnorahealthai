@@ -1,0 +1,313 @@
+.mealItemName,
+.soldByName {
+  position: relative;
+  font-weight: 600;
+}
+.soldByName {
+  width: 398px;
+  letter-spacing: 1px;
+  line-height: 130%;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.mealItemName {
+  align-self: stretch;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  line-height: 38px;
+}
+.mealMainInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.checkIcon1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue1 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.checkIcon2 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue2 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.benefitsContainer,
+.mealInfoContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.benefitsContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+.mealInfoContainer {
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  font-size: 16px;
+}
+.healthScoreLabel {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+}
+.healthScoreLabelContainer,
+.healthScoreLabelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.healthScoreLabelContainer {
+  align-items: center;
+}
+.healthScoreValue {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 38px;
+  font-weight: 600;
+}
+.healthScoreValueBox,
+.healthScoreValueContent,
+.healthScoreValueWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.healthScoreValueBox,
+.healthScoreValueWrapper {
+  align-items: center;
+}
+.healthScoreValueWrapper {
+  align-self: stretch;
+}
+.starIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.healthScoreValueContainer {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+  font-size: 30px;
+}
+.healthScoreContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.priceLabel {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+}
+.priceLabelContainer,
+.priceLabelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceLabelContainer {
+  align-items: center;
+}
+.priceValueText {
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+}
+.priceValueBox,
+.priceValueContainer,
+.priceValueContent,
+.priceValueWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceValueBox,
+.priceValueContainer,
+.priceValueWrapper {
+  align-items: center;
+}
+.priceValueContainer,
+.priceValueWrapper {
+  align-items: flex-start;
+}
+.priceValueContainer {
+  height: 48px;
+  align-items: center;
+  font-size: 40px;
+}
+.priceContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cashbackLabel {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+}
+.cashbackLabelContainer,
+.cashbackLabelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cashbackLabelContainer {
+  align-items: center;
+}
+.priceValueText1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 38px;
+  font-weight: 600;
+}
+.priceValueBox1,
+.priceValueBox2,
+.priceValueBox3,
+.priceValueContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceValueBox2,
+.priceValueBox3,
+.priceValueContainer1 {
+  align-items: center;
+}
+.priceValueBox3,
+.priceValueContainer1 {
+  align-items: flex-start;
+}
+.priceValueContainer1 {
+  height: 48px;
+  align-items: center;
+  font-size: 30px;
+}
+.cashbackContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mealItemNumericInfoContain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: left;
+}
+.mealItemBadgeContainer {
+  display: flex;
+  flex-direction: column;
+  color: #067647;
+}
+.actionsWrapper,
+.mealItemBadgeContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionsContainer,
+.actionsWrapper,
+.featuredMeal,
+.mealDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.actionsContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.featuredMeal,
+.mealDetails {
+  align-items: center;
+}
+.mealDetails {
+  justify-content: flex-start;
+  gap: 16px;
+}
+.featuredMeal {
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: 80px 16px 24px;
+  background-image: url(/public/featuredmeal@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Degular Display";
+}

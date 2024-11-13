@@ -1,0 +1,728 @@
+.mealItemName,
+.soldByName {
+  position: relative;
+  font-weight: 600;
+}
+.soldByName {
+  width: 398px;
+  letter-spacing: 1px;
+  line-height: 130%;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.mealItemName {
+  align-self: stretch;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  line-height: 38px;
+}
+.mealMainInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.benefitsContainer {
+  width: 398px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+.mealInfoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 16px;
+}
+.healthScoreLabel {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+}
+.healthScoreLabelContainer,
+.healthScoreLabelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.healthScoreLabelContainer {
+  align-items: center;
+}
+.healthScoreValue {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 38px;
+  font-weight: 600;
+}
+.healthScoreValueContainer,
+.healthScoreValueWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.healthScoreValueWrapper {
+  align-self: stretch;
+}
+.healthScoreValueContainer {
+  height: 48px;
+  gap: 2px;
+  font-size: 30px;
+}
+.healthScoreContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.priceValueText {
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+}
+.priceValueContainer {
+  height: 48px;
+  font-size: 40px;
+}
+.mealItemNumericInfoContain,
+.priceValueContainer,
+.priceValueContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.priceValueContainer1 {
+  height: 48px;
+  font-size: 30px;
+}
+.mealItemNumericInfoContain {
+  align-self: stretch;
+  gap: 16px;
+  text-align: left;
+}
+.text {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+}
+.badge {
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #abefc6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 8px;
+  mix-blend-mode: normal;
+}
+.arrowRightIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.badgeGroup,
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content {
+  gap: 4px;
+  text-align: left;
+}
+.badgeGroup {
+  border-radius: 9999px;
+  background-color: #ecfdf3;
+  border: 1px solid #abefc6;
+  padding: 4px 10px 4px 4px;
+  gap: 8px;
+}
+.actionsContainer,
+.mealItemBadgeContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mealItemBadgeContainer {
+  display: none;
+  color: #067647;
+}
+.actionsContainer {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+}
+.mealDetails {
+  justify-content: flex-start;
+  gap: 16px;
+}
+.featuredMeal,
+.mealDetails,
+.welcomeBonusBadgeContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featuredMeal {
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: 80px 16px 24px;
+  background-image: url(/public/featuredmeal1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.welcomeBonusBadgeContainer {
+  justify-content: flex-start;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #067647;
+}
+.number {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: -29px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.endpointIcon,
+.lineIcon {
+  position: relative;
+  object-fit: contain;
+}
+.endpointIcon {
+  width: 16px;
+  height: 0;
+}
+.lineIcon {
+  width: 0;
+  flex: 1;
+  max-height: 100%;
+}
+.measureLineBase {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.endpointIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.lines,
+.measureLineBase1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.measureLineBase1 {
+  width: calc(100% - 20px);
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lines {
+  width: 100%;
+  left: 0;
+}
+.measureSpacingGuide {
+  width: 320px;
+  flex: 1;
+  position: relative;
+  display: none;
+}
+.paddingTop {
+  width: 320px;
+  height: 24px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.sectionTitle {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 145%;
+  font-weight: 600;
+}
+.benefitLabel {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+.benefitItem,
+.benefitItem1,
+.benefitItem2 {
+  width: 79px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.benefitItem1,
+.benefitItem2 {
+  width: 167px;
+}
+.benefitItem2 {
+  width: 149px;
+}
+.benefitsContainer1,
+.benefitsItemsContainer,
+.divider1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.benefitsItemsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 8px 16px;
+  font-size: 18px;
+  color: #101828;
+}
+.benefitsContainer1,
+.divider1 {
+  flex-direction: column;
+}
+.benefitsContainer1 {
+  width: 430px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  gap: 8px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+}
+.divider1 {
+  align-self: stretch;
+  height: 2px;
+}
+.ingredientImageIcon {
+  width: 48px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kaleAnd {
+  margin: 0;
+}
+.ingredientItem,
+.ingredientItem2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ingredientItem2 {
+  text-align: left;
+}
+.ingredientsContainer,
+.ingredientsItemsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 16px;
+}
+.ingredientsContainer {
+  flex-direction: column;
+  padding: 0 16px;
+  gap: 12px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+}
+.macroValue {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  line-height: 145%;
+  font-weight: 600;
+  color: #101828;
+}
+.macroItem,
+.macroItemsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.macroItem {
+  overflow: hidden;
+  flex-direction: column;
+  gap: 4px;
+}
+.macroItemsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 24px;
+  font-size: 14px;
+  color: #667085;
+}
+.restaurantLogoIcon {
+  width: 40px;
+  position: relative;
+  border-radius: 999px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.restaurantName {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.soldByInfoItemContainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.distanceIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.distanceInfoContainer,
+.soldByInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.distanceInfoContainer {
+  justify-content: center;
+  gap: 4px;
+}
+.soldByInfoContainer {
+  align-self: stretch;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 16px;
+  color: #475467;
+}
+.meailItemInfoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.offerDescription {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.welcomeBonusInfoContainer {
+  text-align: left;
+  font-size: 20px;
+}
+.welcomeBonusInfoContainer,
+.welcomeBonusMainInfoContai {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.placeholderIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text2 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.buttonsbutton {
+  border-radius: 9999px;
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: left;
+  font-size: 18px;
+}
+.welcomeBonusGeneralContaine {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  z-index: 0;
+}
+.money3dImageIcon {
+  width: 175px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 52px);
+  left: 280.5px;
+  height: 175px;
+  object-fit: cover;
+  z-index: 1;
+}
+.welcomeBonusBanner {
+  align-self: stretch;
+  border-radius: 16px;
+  background: linear-gradient(95.08deg, #067647, #17b26a);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  position: relative;
+  gap: 16px;
+}
+.promotionalBannerContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.mainContent,
+.mealItemDetailsGeneralCont,
+.promotionalBannerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mealItemDetailsGeneralCont {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 16px 0;
+  gap: 16px;
+  text-align: right;
+  font-size: 12px;
+  color: #da2d20;
+}
+.mainContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  align-items: center;
+}
+.clipPathGroup,
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 26.34%;
+  top: 0;
+  right: 73.66%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 64.69%;
+  width: 65.1%;
+  top: 15.63%;
+  right: 0;
+  bottom: 19.69%;
+  left: 34.9%;
+}
+.logo {
+  width: 121.5px;
+  position: relative;
+  height: 32px;
+}
+.actions,
+.appHeader,
+.buttonsbutton1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonsbutton1 {
+  flex: 1;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  overflow: hidden;
+  justify-content: center;
+  padding: 8px;
+}
+.actions,
+.appHeader {
+  width: 36px;
+  justify-content: flex-start;
+}
+.appHeader {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 215px);
+  width: 430px;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.healthScoreValue1 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.starIcon1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+}
+.healthScoreValueContainer1 {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+  font-size: 24px;
+}
+.priceValueContainer2 {
+  height: 40px;
+  font-size: 30px;
+}
+.mealItemNumericInfoContain1,
+.priceValueContainer2,
+.priceValueContainer3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.priceValueContainer3 {
+  height: 40px;
+  font-size: 24px;
+}
+.mealItemNumericInfoContain1 {
+  align-self: stretch;
+  gap: 16px;
+  transform: rotate(180deg);
+}
+.mealItemActionsContainer {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% + 215px);
+  background-color: #fff;
+  border-top: 0.7px solid #d0d5dd;
+  border-right: 0.7px solid #d0d5dd;
+  border-left: 0.7px solid #d0d5dd;
+  box-sizing: border-box;
+  width: 430px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 16px 16px 32px;
+  gap: 8px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  text-align: left;
+  color: #101828;
+}
+.mealItemsDetails {
+  width: 100%;
+  position: relative;
+  border-radius: 32px;
+  background-color: #f9fafb;
+  height: 1419px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Degular Display";
+}

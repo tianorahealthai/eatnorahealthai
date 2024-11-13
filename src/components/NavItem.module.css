@@ -1,0 +1,78 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.icon,
+.label,
+.label1 {
+  position: relative;
+}
+.label {
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+  z-index: 1;
+}
+.label1 {
+  line-height: 16px;
+  display: none;
+}
+.basebadge,
+.indicator {
+  flex-direction: row;
+  align-items: center;
+}
+.basebadge {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 48px;
+  background-color: #f9bb0e;
+  display: flex;
+  justify-content: center;
+  padding: 2px 0;
+}
+.indicator {
+  width: 8px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 28px;
+  height: 8px;
+  display: none;
+  justify-content: flex-start;
+  z-index: 2;
+  text-align: center;
+  font-size: 12px;
+  color: #575655;
+}
+.mobile,
+.root {
+  display: flex;
+  align-items: center;
+}
+.mobile {
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  gap: 4px;
+}
+.root {
+  align-self: stretch;
+  flex: 0.6784;
+  border-radius: 8px;
+  background-color: #e0f2fe;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #101828;
+  font-family: "Degular Display";
+}
+.root[data-viewport="Mobile"][data-isSelected="false"] {
+  background-color: unset;
+}

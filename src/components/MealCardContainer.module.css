@@ -1,0 +1,233 @@
+.mealImageIcon {
+  width: 56px;
+  position: relative;
+  border-radius: 12px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mealName,
+.restaurantName {
+  position: relative;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.restaurantName {
+  width: 282px;
+  line-height: 155%;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.mealName {
+  align-self: stretch;
+  line-height: 32px;
+}
+.mealInfoContainer,
+.mealName1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mealName1 {
+  width: 282px;
+  height: 32px;
+  align-items: flex-start;
+  font-size: 24px;
+}
+.mealInfoContainer {
+  flex: 1;
+  align-items: center;
+}
+.contrastBorder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 12498.8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.avatar {
+  width: 40px;
+  position: relative;
+  border-radius: 999px;
+  height: 40px;
+  background-image: url(/public/avatar@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.mealDetailsContainer,
+.mealMainInfoContainer,
+.restaurantLogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mealDetailsContainer {
+  flex: 1;
+  gap: 12px;
+}
+.mealMainInfoContainer {
+  align-self: stretch;
+  gap: 8px;
+  font-size: 14px;
+}
+.checkIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.checkIcon1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue1 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.checkIcon2 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue2 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.benefitsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.mealMetricLabel,
+.mealMetricValue {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+.mealMetricValue {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.mealMetricItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mealMetricLabel1,
+.mealMetricValue1 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+.mealMetricValue1 {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.mealMetricItem1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mealMetricLabel2,
+.mealMetricValue2 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+.mealMetricValue2 {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.mealMetricItem2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mealMetricLabel3,
+.mealMetricValue3 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+.mealMetricValue3 {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.mealMetricItem3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mealCardContainer,
+.mealMetricsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.mealCardContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: left;
+  font-size: 12px;
+  color: #101828;
+  font-family: "Degular Display";
+}

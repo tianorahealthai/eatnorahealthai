@@ -1,0 +1,99 @@
+.offerTitle,
+.welcomeBonusIndication {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+}
+.offerTitle {
+  letter-spacing: 0.04em;
+  line-height: 145%;
+}
+.offerDescription {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.welcomeBonusInfoContainer {
+  text-align: left;
+  font-size: 20px;
+}
+.welcomeBonusInfoContainer,
+.welcomeBonusMainInfoContai {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.placeholderIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.arrowRightIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonsbutton {
+  border-radius: 9999px;
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: left;
+  font-size: 18px;
+}
+.welcomeBonusGeneralContaine {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  z-index: 0;
+}
+.money3dImageIcon {
+  width: 175px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 52px);
+  left: 280.5px;
+  height: 175px;
+  object-fit: cover;
+  z-index: 1;
+}
+.welcomeBonusBanner {
+  align-self: stretch;
+  border-radius: 16px;
+  background: linear-gradient(95.08deg, #067647, #17b26a);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  position: relative;
+  gap: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Degular Display";
+}

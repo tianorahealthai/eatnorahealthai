@@ -1,0 +1,44 @@
+.background,
+.progress {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 9999px;
+  background-color: #f0f9ff;
+  height: 8px;
+}
+.progress {
+  width: 31.63%;
+  right: 68.37%;
+  background-color: #0ba5ec;
+}
+.progressBar {
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  height: 8px;
+}
+.root {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.root[data-label="false"][data-progress="40%"] .progress {
+  width: 49.07%;
+  right: 50.93%;
+}
+.root[data-label="false"][data-progress="90%"] .progress {
+  width: 92.01%;
+  right: 7.99%;
+}
+.root[data-label="false"][data-progress="100%"] .progress {
+  right: 0;
+}
+.root[data-label="false"][data-progress="60%"] .progress {
+  width: 66.13%;
+  right: 33.87%;
+}

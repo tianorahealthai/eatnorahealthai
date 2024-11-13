@@ -1,0 +1,180 @@
+.question,
+.subHeading {
+  align-self: stretch;
+  position: relative;
+}
+.question {
+  letter-spacing: 0.04em;
+  line-height: 38px;
+  font-weight: 600;
+}
+.subHeading {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+.optionsContainer,
+.questionContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.questionContainer {
+  flex-direction: column;
+  gap: 8px;
+}
+.optionsContainer {
+  flex-direction: row;
+}
+.onboardingMainContainer,
+.questionMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.questionMainContainer {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.onboardingMainContainer {
+  position: absolute;
+  top: 128px;
+  left: 0;
+  width: 430px;
+  height: 691px;
+  align-items: flex-end;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+.homeIndicator {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 67px);
+  border-radius: 100px;
+  background-color: #000;
+  width: 134px;
+  height: 5px;
+}
+.homeindicator {
+  bottom: 0;
+  left: 0;
+  width: 430px;
+  height: 34px;
+}
+.homeindicator,
+.time,
+.time1 {
+  position: absolute;
+}
+.time1 {
+  top: 33.89%;
+  left: 38.26%;
+  line-height: 22px;
+  font-weight: 600;
+}
+.time {
+  width: 35.74%;
+  top: calc(50% - 27px);
+  right: 64.26%;
+  left: 0;
+  height: 54px;
+}
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 13.65px);
+  border-radius: 4.3px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 25px;
+  opacity: 0.35;
+}
+.capIcon {
+  height: 31.54%;
+  top: 36.92%;
+  bottom: 31.54%;
+  left: calc(50% + 12.35px);
+  max-height: 100%;
+  width: 1.3px;
+}
+.capacity {
+  position: absolute;
+  height: 69.23%;
+  top: 15.38%;
+  bottom: 15.38%;
+  left: calc(50% - 11.65px);
+  border-radius: 2.5px;
+  background-color: #000;
+  width: 21px;
+}
+.battery {
+  position: absolute;
+  height: 24.07%;
+  top: 42.59%;
+  bottom: 33.33%;
+  left: calc(50% + 11.15px);
+  width: 27.3px;
+}
+.cellularConnectionIcon,
+.wifiIcon {
+  position: absolute;
+  height: 22.78%;
+  top: 43.7%;
+  bottom: 33.52%;
+  left: calc(50% - 13.15px);
+  max-height: 100%;
+  width: 17.1px;
+}
+.cellularConnectionIcon {
+  height: 22.59%;
+  top: 43.52%;
+  bottom: 33.89%;
+  left: calc(50% - 39.85px);
+  width: 19.2px;
+}
+.levels {
+  position: absolute;
+  width: 35.74%;
+  top: calc(50% - 27px);
+  right: 0;
+  left: 64.26%;
+  height: 54px;
+}
+.statusBar,
+.statusBar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.statusBar1 {
+  width: 100%;
+  right: 0;
+  height: 54px;
+}
+.statusBar {
+  width: 430px;
+  height: 56px;
+  overflow: hidden;
+  font-size: 17px;
+  font-family: "SF Pro";
+}
+.onboardingFlowPhoneNumberE {
+  width: 100%;
+  position: relative;
+  border-radius: 32px;
+  background-color: #fff;
+  height: 932px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  font-family: "Degular Display";
+}

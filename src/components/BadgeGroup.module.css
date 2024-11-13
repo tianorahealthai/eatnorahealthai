@@ -1,0 +1,33 @@
+.message {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+}
+.arrowRightIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.badgeGroup,
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: left;
+}
+.badgeGroup {
+  border-radius: 9999px;
+  background-color: #ecfdf3;
+  border: 1px solid #abefc6;
+  padding: 4px 10px 4px 4px;
+  gap: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: #067647;
+  font-family: "Degular Display";
+}

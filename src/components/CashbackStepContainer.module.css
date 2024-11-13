@@ -1,0 +1,57 @@
+.cashbackStepMediaIcon {
+  width: 96px;
+  position: relative;
+  border-radius: 8px;
+  height: 149px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cashbackStepLabel,
+.cashbackStepTitle {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cashbackStepLabel {
+  letter-spacing: 1px;
+  line-height: 130%;
+  color: #475467;
+}
+.cashbackStepTitle {
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  line-height: 145%;
+}
+.cashbackStepDescription {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.casbbackStepTextContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cashbackStepContainer,
+.cashbackStepDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.cashbackStepDetails {
+  flex: 1;
+  flex-direction: column;
+}
+.cashbackStepContainer {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: "Degular Display";
+}

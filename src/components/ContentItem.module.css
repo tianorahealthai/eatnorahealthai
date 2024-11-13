@@ -1,0 +1,210 @@
+.number {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: -29px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.endpointIcon {
+  width: 16px;
+  height: 0;
+}
+.endpointIcon,
+.endpointIcon1,
+.lineIcon {
+  position: relative;
+  object-fit: contain;
+}
+.lineIcon {
+  width: 0;
+  flex: 1;
+  max-height: 100%;
+}
+.endpointIcon1 {
+  width: 16px;
+  height: 0;
+}
+.measureLineBase {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.endpointIcon2 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+}
+.endpointIcon2,
+.endpointIcon3,
+.lineIcon1 {
+  position: relative;
+  object-fit: contain;
+}
+.lineIcon1 {
+  width: 0;
+  flex: 1;
+  max-height: 100%;
+}
+.endpointIcon3 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+}
+.lines,
+.measureLineBase1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.measureLineBase1 {
+  width: calc(100% - 20px);
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lines {
+  width: 100%;
+  left: 0;
+}
+.measureSpacingGuide {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.paddingTop {
+  width: 320px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.number1 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: -29px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.endpointIcon4 {
+  width: 16px;
+  height: 0;
+}
+.endpointIcon4,
+.endpointIcon5,
+.lineIcon2 {
+  position: relative;
+  object-fit: contain;
+}
+.lineIcon2 {
+  width: 0;
+  flex: 1;
+  max-height: 100%;
+}
+.endpointIcon5 {
+  width: 16px;
+  height: 0;
+}
+.measureLineBase2 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.endpointIcon6 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+}
+.endpointIcon6,
+.endpointIcon7,
+.lineIcon3 {
+  position: relative;
+  object-fit: contain;
+}
+.lineIcon3 {
+  width: 0;
+  flex: 1;
+  max-height: 100%;
+}
+.endpointIcon7 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+}
+.lines1,
+.measureLineBase3 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.measureLineBase3 {
+  width: calc(100% - 20px);
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lines1 {
+  width: 100%;
+  left: 0;
+}
+.measureSpacingGuide1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.contentItem,
+.paddingBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paddingBottom {
+  width: 320px;
+  height: 24px;
+}
+.contentItem {
+  align-self: stretch;
+  text-align: right;
+  font-size: 12px;
+  color: #da2d20;
+  font-family: "Degular Display";
+}
