@@ -1767,24 +1767,21 @@ const OnboardingLandingPage: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.actionsContainer}>
-            <Button
-              hierarchy="Primary"
-              icon="Default"
-              size="md"
-              state="Default"
-              iconTrailing={false}
-              iconLeading={false}
-              buttonsButtonFlex="unset"
-              buttonsButtonWidth="unset"
-              buttonsButtonAlignSelf="stretch"
-              buttonsButtonHeight="unset"
-              placeholder="/placeholder.svg"
-              placeholderIconOverflow="hidden"
-              placeholderIconTransform="unset"
-              text="Join now"
-              placeholder1="/placeholder.svg"
-              showButtonsButton
-            />
+            <div className={styles.buttonsbutton}>
+              <img
+                className={styles.placeholderIcon}
+                alt=""
+                src="/placeholder.svg"
+              />
+              <div className={styles.textPadding}>
+                <div className={styles.text}>Join now</div>
+              </div>
+              <img
+                className={styles.placeholderIcon}
+                alt=""
+                src="/placeholder.svg"
+              />
+            </div>
             <Button
               hierarchy="Secondary gray"
               icon="Default"
@@ -1815,7 +1812,7 @@ const OnboardingLandingPage: FunctionComponent = () => {
         clipPathGroup="/clip-path-group.svg"
         vector="/vector.svg"
       />
-      <div className={styles.buttonsbutton}>
+      <div className={styles.buttonsbutton1}>
         <img className={styles.helpCircleIcon} alt="" src="/helpcircle.svg" />
       </div>
       <div className={styles.statusBar}>
