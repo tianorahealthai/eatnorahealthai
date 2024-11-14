@@ -1,0 +1,519 @@
+.pageTitle {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.pageTitleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 16px;
+  text-align: center;
+}
+.timeOptionValue {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+}
+.timeOptionItem {
+  border-radius: 999px;
+  background-color: #0086c9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  color: #fff;
+}
+.timeOptionItem1 {
+  border-radius: 999px;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+}
+.timeSelectorContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 16px;
+  gap: 8px;
+  font-size: 14px;
+  color: #101828;
+}
+.sectionTitle {
+  flex: 1;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.refreshCw02Icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonsbutton {
+  border-radius: 9999px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.titleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.mealImageIcon {
+  width: 56px;
+  position: relative;
+  border-radius: 12px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.restaurantName {
+  width: 258px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.mealName {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.mealInfoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contrastBorder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 12498.8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.avatar {
+  width: 40px;
+  position: relative;
+  border-radius: 999px;
+  height: 40px;
+  background-image: url("/public/avatar@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.restaurantLogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mealDetailsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.mealMainInfoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 12px;
+  gap: 8px;
+  font-size: 14px;
+}
+.benefitItemValue {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.benefitsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 12px;
+  font-size: 16px;
+}
+.number {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: -29px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.endpointIcon {
+  width: 16px;
+  position: relative;
+  height: 0px;
+  object-fit: contain;
+}
+.lineIcon {
+  width: 0px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+}
+.measureLineBase {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.endpointIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.measureLineBase1 {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 20px);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lines {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.measureSpacingGuide {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.paddingTop {
+  width: 320px;
+  height: 24px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.contentItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+  color: #da2d20;
+}
+.mealMetricLabel {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+.mealMetricValue {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.mealMetricItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mealMetricsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0px 12px;
+}
+.mealCardContainer {
+  align-self: stretch;
+  box-shadow:
+    0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  border-radius: 24px;
+  background-color: #fff;
+  border: 0.5px solid #d0d5dd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 0px;
+  gap: 16px;
+  font-size: 12px;
+  color: #101828;
+}
+.suggestionContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 16px;
+  gap: 12px;
+}
+.measureSpacingGuide2 {
+  width: 320px;
+  flex: 1;
+  position: relative;
+  display: none;
+}
+.contentItem1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+  font-size: 12px;
+  color: #da2d20;
+}
+.suggestionsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.mainContentContainer {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 0px;
+  box-sizing: border-box;
+  gap: 16px;
+  text-align: left;
+}
+.time1 {
+  position: absolute;
+  top: 33.89%;
+  left: 38.28%;
+  line-height: 22px;
+  font-weight: 600;
+}
+.time {
+  position: absolute;
+  width: 35.12%;
+  top: calc(50% - 27px);
+  right: 64.88%;
+  left: 0%;
+  height: 54px;
+}
+.border {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: calc(50% - 13.65px);
+  border-radius: 4.3px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 25px;
+  opacity: 0.35;
+  mix-blend-mode: normal;
+}
+.capIcon {
+  position: absolute;
+  height: 31.54%;
+  top: 36.92%;
+  bottom: 31.54%;
+  left: calc(50% + 12.35px);
+  max-height: 100%;
+  width: 1.3px;
+  mix-blend-mode: normal;
+}
+.capacity {
+  position: absolute;
+  height: 69.23%;
+  top: 15.38%;
+  bottom: 15.38%;
+  left: calc(50% - 11.65px);
+  border-radius: 2.5px;
+  background-color: #fff;
+  width: 21px;
+}
+.battery {
+  position: absolute;
+  height: 24.07%;
+  top: 42.59%;
+  bottom: 33.33%;
+  left: calc(50% + 10.75px);
+  width: 27.3px;
+}
+.wifiIcon {
+  position: absolute;
+  height: 22.78%;
+  top: 43.7%;
+  bottom: 33.52%;
+  left: calc(50% - 13.55px);
+  max-height: 100%;
+  width: 17.1px;
+}
+.cellularConnectionIcon {
+  position: absolute;
+  height: 22.59%;
+  top: 43.52%;
+  bottom: 33.89%;
+  left: calc(50% - 40.25px);
+  max-height: 100%;
+  width: 19.2px;
+}
+.levels {
+  position: absolute;
+  width: 36.4%;
+  top: calc(50% - 27px);
+  right: 0%;
+  left: 63.6%;
+  height: 54px;
+}
+.statusBar1 {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: #fff;
+  height: 54px;
+}
+.statusBar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 430px;
+  height: 56px;
+  overflow: hidden;
+  font-size: 17px;
+  color: #fff;
+  font-family: "SF Pro";
+}
+.button {
+  width: 48px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pageTitle1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 145%;
+  font-weight: 600;
+}
+.appHeader {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: #fff;
+  border-bottom: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  font-size: 20px;
+}
+.mealPlanDayDetails {
+  width: 100%;
+  position: relative;
+  border-radius: 32px;
+  background-color: #fff;
+  height: 1052px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: "Degular Display";
+}

@@ -1,0 +1,319 @@
+.mealImageIcon {
+  width: 56px;
+  position: relative;
+  border-radius: 12px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.restaurantName {
+  width: 282px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.mealName1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.mealName {
+  width: 282px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 24px;
+}
+.mealInfoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contrastBorder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 12498.8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.avatar {
+  width: 40px;
+  position: relative;
+  border-radius: 999px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.restaurantLogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mealDetailsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.mealMainInfoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 14px;
+}
+.checkIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.benefitItemValue {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.benefitItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.benefitsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.number {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: -29px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.endpointIcon {
+  width: 16px;
+  position: relative;
+  height: 0px;
+  object-fit: contain;
+}
+.lineIcon {
+  width: 0px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+}
+.measureLineBase {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.endpointIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.measureLineBase1 {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 20px);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lines {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.measureSpacingGuide {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.paddingTop {
+  width: 320px;
+  height: 24px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.contentItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+  color: #da2d20;
+}
+.mealMetricLabel {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+.mealMetricValue {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.mealMetricItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mealMetricsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.ishomepageyes {
+  position: absolute;
+  top: 260px;
+  left: 16px;
+  width: 398px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.restaurantName1 {
+  width: 258px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 155%;
+  font-weight: 600;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.mealName2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.mealMainInfoContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 12px;
+  gap: 8px;
+  font-size: 14px;
+}
+.benefitsContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 12px;
+  font-size: 16px;
+}
+.mealMetricsContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0px 12px;
+}
+.ishomepageno {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  box-shadow:
+    0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  border-radius: 24px;
+  background-color: #fff;
+  border: 0.5px solid #d0d5dd;
+  box-sizing: border-box;
+  width: 398px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 0px;
+  gap: 16px;
+}
+.mealCardContainer {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px dashed #9747ff;
+  box-sizing: border-box;
+  height: 493px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #101828;
+  font-family: "Degular Display";
+}
