@@ -12,7 +12,7 @@ const OnboardingFlowUploadPicture: FunctionComponent = () => {
       <div className={styles.onboardingMainContainer}>
         <ProgressBar
           label={false}
-          progress="100%"
+          progress="20%"
           progressBarAlignSelf="stretch"
           progressBarWidth="unset"
         />

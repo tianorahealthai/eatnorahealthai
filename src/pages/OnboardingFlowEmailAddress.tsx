@@ -9,7 +9,7 @@ const OnboardingFlowEmailAddress: FunctionComponent = () => {
       <div className={styles.onboardingMainContainer}>
         <ProgressBar
           label={false}
-          progress="60%"
+          progress="20%"
           progressBarAlignSelf="stretch"
           progressBarWidth="unset"
         />

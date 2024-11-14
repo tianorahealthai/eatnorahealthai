@@ -35,7 +35,7 @@ const CashbackPageNotSetup: FunctionComponent = () => {
           />
         </div>
       </div>
-      <Tabbar page="Cashback" />
+     
       <div className={styles.appHeader}>
         <div className={styles.noraLogo}>
           <div className={styles.logo}>

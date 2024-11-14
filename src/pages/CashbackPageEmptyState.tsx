@@ -55,7 +55,7 @@ const CashbackPageEmptyState: FunctionComponent = () => {
         alt=""
         src="/successanimation@2x.png"
       />
-      <Tabbar page="Cashback" />
+      
       <div className={styles.appHeader}>
         <div className={styles.noraLogo}>
           <div className={styles.logo}>
